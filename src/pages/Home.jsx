@@ -157,6 +157,25 @@ export default function Home(){
         </div>
       </div>
 
+
+      {/* Best Sellers Section */}
+      <div className="space-y-8">
+        <h2 className="text-3xl font-bold text-gray-800">الأكثر مبيعًا</h2>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {productsByCategory.grills.map(d=> (
+            <div key={`best-${d.id}`} className="card group hover:scale-105 transition-all duration-300">
+              <img src={d.img} alt={d.name} className="h-48 w-full object-cover" />
+              <div className="card-body">
+                <div className="card-title">{d.name}</div>
+                <div className="card-subtitle">{d.desc}</div>
+                <div className="price">{d.price} ر.س</div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+
       {/* Branches Section */}
       <div className="space-y-8">
         <div className="flex items-center justify-between">
@@ -221,23 +240,7 @@ export default function Home(){
           ))}
         </div>
       </div>
-
-      {/* Best Sellers Section */}
-      <div className="space-y-8">
-        <h2 className="text-3xl font-bold text-gray-800">الأكثر مبيعًا</h2>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {productsByCategory.grills.map(d=> (
-            <div key={`best-${d.id}`} className="card group hover:scale-105 transition-all duration-300">
-              <img src={d.img} alt={d.name} className="h-48 w-full object-cover" />
-              <div className="card-body">
-                <div className="card-title">{d.name}</div>
-                <div className="card-subtitle">{d.desc}</div>
-                <div className="price">{d.price} ر.س</div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
+      
     </section>
   )
 }
