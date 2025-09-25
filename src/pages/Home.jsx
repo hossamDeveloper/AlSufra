@@ -73,25 +73,25 @@ export default function Home(){
         {/* Stats Section */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 px-8 md:px-12 pb-8">
           <div className="card p-6 text-center group hover:scale-105 transition-all duration-300">
-            <div className="text-4xl font-extrabold bg-gradient-to-r from-red-600 to-orange-500 bg-clip-text text-transparent mb-2">
+            <div className="text-2xl md:text-4xl font-extrabold bg-gradient-to-r from-red-600 to-orange-500 bg-clip-text text-transparent mb-2">
               5
             </div>
             <div className="text-sm text-gray-600 font-medium">فروع</div>
           </div>
           <div className="card p-6 text-center group hover:scale-105 transition-all duration-300">
-            <div className="text-4xl font-extrabold bg-gradient-to-r from-red-600 to-orange-500 bg-clip-text text-transparent mb-2">
+            <div className="text-2xl md:text-4xl font-extrabold bg-gradient-to-r from-red-600 to-orange-500 bg-clip-text text-transparent mb-2">
               22
             </div>
             <div className="text-sm text-gray-600 font-medium">عام من الخبرة</div>
           </div>
           <div className="card p-6 text-center group hover:scale-105 transition-all duration-300">
-            <div className="text-4xl font-extrabold bg-gradient-to-r from-red-600 to-orange-500 bg-clip-text text-transparent mb-2">
+            <div className="text-2xl md:text-4xl font-extrabold bg-gradient-to-r from-red-600 to-orange-500 bg-clip-text text-transparent mb-2">
               100K+
             </div>
             <div className="text-sm text-gray-600 font-medium">عملاء سعداء</div>
           </div>
           <div className="card p-6 text-center group hover:scale-105 transition-all duration-300">
-            <div className="text-4xl font-extrabold bg-gradient-to-r from-red-600 to-orange-500 bg-clip-text text-transparent mb-2">
+            <div className="text-2xl md:text-4xl font-extrabold bg-gradient-to-r from-red-600 to-orange-500 bg-clip-text text-transparent mb-2">
               30+
             </div>
             <div className="text-sm text-gray-600 font-medium">صنف متنوع</div>
