@@ -93,10 +93,6 @@ export default function Menu(){
               <div className="card-subtitle">{it.desc}</div>
               <div className="flex items-center justify-between mt-4">
                 <div className="price">{it.price} ر.س</div>
-                <button className="btn text-sm px-4 py-2">
-                  <span className="mr-1"></span>
-                  أضف للسلة
-                </button>
               </div>
             </div>
           </div>
